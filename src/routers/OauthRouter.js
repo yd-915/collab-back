@@ -7,9 +7,9 @@ const User = require("../models/User");
 //Initialising the oauth client as a global variable
 
 global.oauth2Client = new google.auth.OAuth2(
-  process.env.GOOGLE_CLIENT_ID,
-  process.env.GOOGLE_CLIENT_SECRET,
-  process.env.redirect_URI
+  "527571847728-qvjtmv1era61gou3j5lj2moq5jqgu76h.apps.googleusercontent.com",
+  "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",
+  "https://iftiinback.adaptable.app"
 );
 
 router.get("/googleOauth", async (req, res) => {
