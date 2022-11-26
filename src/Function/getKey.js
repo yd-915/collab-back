@@ -1,7 +1,7 @@
 let idx = -1;
 
 const keys = [
-  ["728824725279-36qsuu8vr8o8q9ek7e5u7jute4v6ktdt.apps.googleusercontent.com", "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"],
+  ["244d5ca662a87765be0bac7f91b87f5e", "206d7485630efe37352a60ac2c358838c722cfb1832501488c98a04132635eaf"],
  
 ];
 
