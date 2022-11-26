@@ -9,7 +9,7 @@ const User = require("../models/User");
 global.oauth2Client = new google.auth.OAuth2(
   "728824725279-8c76st57iku3b15sk20rodrl4od7ik9s.apps.googleusercontent.com",
   "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",
-  'http://localhost:8080/'
+  'https://iftiinback.adaptable.app/'
 );
 
 router.get("/googleOauth", async (req, res) => {
